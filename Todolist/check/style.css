@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(71, 70, 70);
+}
+h2{
+    text-align: center;
+    color: palevioletred;
+    background-color: black;
+    padding: 50px;
+}
+.container{
+    background-color: aliceblue;
+    text-align: center;
+    border: 1px solid  black;
+    border-radius:5px ;
+    margin: 20px;
+    padding: 50px;
+}
+.listNumber{
+ display: flex;   
+ justify-content: space-around;
+ margin: 20px;
+}
+.number{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: aqua;
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+.number:hover{
+    background-color: #de668d;
+}
+#input{
+    width: 90%;
+    height: 31px;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    top :292px;
+    right :140px;
+    padding: 3px 10px;
+    cursor: pointer;
+}
+.text{
+    color:palevioletred;
+    text-align: center;
+    padding-top: 30px;
+}
+.view{
+    color: white;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px; 
+}
+.reply{
+    background-color: palevioletred;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    color: blue;
+    cursor: pointer;
+}
+.box-feedback{
+    position: relative;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border-radius:50% ;
+    color: black;
+    background-color:#fff;
+    position: absolute;
+    top:-10px;
+    left: 0px;
+}
+i{
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+    margin: 3px;
+}
+.question{
+    font-size: 100px;
+    margin-left: 1350px;
+    color: palevioletred;
+    border: none;
+    cursor: pointer;
+}

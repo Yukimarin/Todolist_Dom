@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    min-width: fit-content;
+}
+
+/* Bài 1 */
+/* #lession1 {
+    display: flex;
+    font-size: 30px;
+}
+
+
+.btn {
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+} */
+
+/* Bài 2 */
+/* Bài 3 */
+/* .box {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    background-color: rgb(223, 210, 15);
+} */
+
+/* Bài 4 */
+.item {
+    display: none;
+}
